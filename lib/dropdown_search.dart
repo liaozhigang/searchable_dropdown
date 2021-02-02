@@ -350,7 +350,7 @@ class DropdownSearchState<T> extends State<DropdownSearch<T>> {
               )
             : IconButton(
                 icon: widget.dropDownButton ??
-                    const Icon(Icons.arrow_drop_down, size: 24),
+                    const Icon(Icons.arrow_drop_down, size: 24), padding: EdgeInsets.all(0.0),
                 onPressed: dropdownButtonPressed,
               ),
       ],
